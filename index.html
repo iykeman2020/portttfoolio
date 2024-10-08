@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Portfolio Website</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <nav>
+        <h2 class="logo">CEO</h2>
+        <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle" />
+        <label for="hamburger-toggle" class="hamburger">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul id="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+        <a href="#" class="btn">Download Resume</a>
+      </nav>
+      <div class="content" id="home">
+        <h4>👋 Hello, my name is</h4>
+        <h1>EMEKA <span>FORTUNE</span></h1>
+        <h3>An architec And a Web Developer</h3>
+        <div class="newsletter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+            <input type="submit" name="submit" value="Let's Start" />
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section class="about" id="about-me">
+      <div class="info">
+        <img src="IMG-20211202-WA0080.jpg" alt="About Image"/>
+
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Architec <span>& Developer</span></h5>
+          <p>
+            I am an intermidiate Front-end Web Developer. My passpective is working on the
+            User Interface and User experience (UI/UX) of a website. I excel at
+            building a high-quality UI web applications and replicating
+            given designs. I also provide clean code and pixel-perfect design. I
+            bring your digital dreams to live with flair. A responsive design
+            makes your website accessible to all users, despicte of the device.
+          </p>
+          <button type="button">Talk to me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="service">
+      <div class="title">
+        <h2>My Services</h2>
+      </div>
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-code"></i>
+          <h5>Web Development</h5>
+          <div class="par">
+            <p>
+              Every website should be built with two primary goals: Firstly, it
+              needs to work across all devices. Secondly, it needs to be as fast
+              as possible.
+            </p>
+            <p style="text-align: center">
+              <a href="#" class="button">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-paint-brush"></i>
+          <h5>Graphic Design</h5>
+          <div class="par">
+            <p>
+              Stunning and visually appealing designs to enhance the user
+              experience of your brand or website.
+            </p>
+            <p style="text-align: center">
+              <a href="#" class="button">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-mobile-alt"></i>
+          <h5>Responsive Design</h5>
+          <div class="par">
+            <p>
+              Optimizing your website to be accessible on all devices for the
+              best user experience.
+            </p>
+            <p style="text-align: center">
+              <a href="#" class="button">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact-me">
+      <p>"BUILD YOUR WEBSITE WITH FORTUNE"</p>
+      <a class="second-button" href="#">Hire Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>code with FORTUNE</p>
+      <p>
+        I hope you enjoyed scrolling through my portfolio!! Let me handle your
+        next frontend project
+      </p>
+      <p>
+        Ps: I'm  open for jobs, to work as a team for your
+        projects and internships.
+      </p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p class="end">CODE WITH FORTUNE</p>
+    </footer>
+  </body>
+</html>
